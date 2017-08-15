@@ -1,5 +1,4 @@
-package controller;
-
+package br.com.gbraghim.eventmanager.controller;
 import org.springframework.stereotype.Service;
 
 //criando um serviço (aqui ligamos a dependency injection)
@@ -7,8 +6,8 @@ import org.springframework.stereotype.Service;
 public class LoginService {
     public boolean validateUser(String email, String password) {
 
-		//return user.equalsIgnoreCase("gustavo") && password.equals("daitan");
-		return false;
+		//como buscar os dados no banco?
+        return email.equalsIgnoreCase("gustavo") && password.equals("daitan");
 	}
 
 }

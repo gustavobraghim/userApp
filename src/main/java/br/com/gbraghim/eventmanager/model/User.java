@@ -1,19 +1,20 @@
-package model;
+package br.com.gbraghim.eventmanager.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
 @Entity
-@Table(name="user")
-public class user {
+@Table(name="User")
+public class User {
+
     @Id
     private String email;
     @Column
     private String nome;
     @Column
     private String password;
-
 
     public String getNome() {
         return nome;
@@ -36,17 +37,12 @@ public class user {
 
     @Override
     public String toString() {
-        return "user{" +
+        return "User{" +
                 "nome='" + nome + '\'' +
                 ", password='" + password + '\'' +
                 ", email='" + email + '\'' +
                 '}';
     }
-    /*public user(String nome, String password, String email) {
-        this.nome = nome;
-        this.password = password;
-        this.email = email;
-    }*/
 
 
 }
