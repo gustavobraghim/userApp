@@ -3,8 +3,9 @@
         <title>Login</title>
     </head>
     <body>
-         <form action="/login" method="POST">
-                Name : <input name="name" type="text" />
+        <p><font color="red">${errorMessage}</font></p>
+         <form action="index" method="POST">
+                Email : <input name="email" type="text" />
                 Password : <input name="password" type="password" />
                 <input type="submit" />
          </form>

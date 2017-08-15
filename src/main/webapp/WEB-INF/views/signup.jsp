@@ -1,12 +1,13 @@
 <html>
     <head>
-        <title>Login</title>
+        <title>Cadastro</title>
     </head>
     <body>
-        <p><font color="red">${errorMessage}</font></p>
-         <form action="/login" method="POST">
-                Name : <input name="name" type="text" />
-                Password : <input name="password" type="password" />
+         <form action="/signup" method="POST">
+                Insira seus dados:
+                Name  <input name="name" type="text" />
+                Password: <input name="password" type="password" />
+                Email: <input name="email" type="text" />
                 <input type="submit" />
          </form>
     </body>
