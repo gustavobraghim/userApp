@@ -1,10 +1,11 @@
-<%  String mensagem = "Bem vindo, voce esta logado!";
-    out.println(mensagem);
-%>
-
+<html>
+    <head>
+        <title>Login!</title>
+    </head>
+    <body>
     Bem vindo ${name}!! Vc esta logado! Seus dados sao:
     Nome: ${name}:
     Email: ${email}
-    Password: ${password};
-
-
+    Password: ${password}
+    </body>
+</html>

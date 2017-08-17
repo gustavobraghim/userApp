@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import br.com.gbraghim.eventmanager.controller.LoginService;
+import br.com.gbraghim.eventmanager.model.User;
 
 @Controller
 public class LoginController {
@@ -22,16 +23,19 @@ public class LoginController {
 
     //metodo com post
     @RequestMapping(value = "/index", method = RequestMethod.POST)
-    public String handleLoginRequest(@RequestParam String email, @RequestParam String password, @RequestParam String name,  ModelMap model){
-       if (!service.validateUser(email, password)){
+
+    public String handleLoginRequest(User user, ModelMap model){
+        String passwordAux = user.getPassword();
+        String emailAux = user.getEmail();
+
+        if (!service.validateUser(emailAux,passwordAux)){
           model.put("errorMessage", "Credenciais invalidas");
            return "index"; // se a senha tiver errada volta para a tela de login
-       }
+        }
 
-       //segue o fluxo caso tudo esteja ok e mostra
-        model.put("name", name);
-        model.put("email", email);
-        model.put("password", password);
+        //segue o fluxo caso tudo esteja ok e mostra
+        model.put("email", emailAux);
+        model.put("password", passwordAux);
         return "welcome";
     }
 }

@@ -10,10 +10,12 @@ public class UserDaoTest {
     @Test
     public void testCrudUser() {
         User user = new User();
-        user.setNome("Gustavo");
+        String nome="Gustavo";
+        user.setNome(nome);
         String email = "gbraghim@daitangroup.com";
         user.setEmail(email);
-        user.setPassword("341234");
+        String password = "123456";
+        user.setPassword(password);
 
         UserDAO userDAO = new UserDAO();
         userDAO.UpdateUser(user);
@@ -22,5 +24,4 @@ public class UserDaoTest {
 
         Assert.assertEquals(user, byEmail);
     }
-
 }
