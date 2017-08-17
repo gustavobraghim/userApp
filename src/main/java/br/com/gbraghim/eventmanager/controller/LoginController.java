@@ -24,18 +24,18 @@ public class LoginController {
     //metodo com post
     @RequestMapping(value = "/index", method = RequestMethod.POST)
 
-    public String handleLoginRequest(User user, ModelMap model){
-        String passwordAux = user.getPassword();
-        String emailAux = user.getEmail();
+    public String handleLoginRequest(String email, String password, ModelMap model){
+        /*String password = user.getPassword();
+        String email = user.getEmail();*/
 
-        if (!service.validateUser(emailAux,passwordAux)){
+        if (!service.validateUser(email,password)){
           model.put("errorMessage", "Credenciais invalidas");
            return "index"; // se a senha tiver errada volta para a tela de login
         }
 
         //segue o fluxo caso tudo esteja ok e mostra
-        model.put("email", emailAux);
-        model.put("password", passwordAux);
+        model.put("email", email);
+        model.put("password", password);
         return "welcome";
     }
 }
