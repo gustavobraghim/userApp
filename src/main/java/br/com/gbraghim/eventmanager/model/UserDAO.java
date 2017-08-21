@@ -5,11 +5,10 @@ import javax.persistence.*;
 
 @Repository
 public class UserDAO {
-
     private final EntityManager manager;
 
     public UserDAO () {
-        final EntityManagerFactory factory = Persistence.createEntityManagerFactory("minhaPersistencia");
+        final EntityManagerFactory factory = Persistence.createEntityManagerFactory("hsql");
         manager = factory.createEntityManager();
     }
 

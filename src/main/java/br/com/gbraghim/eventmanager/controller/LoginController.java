@@ -11,31 +11,25 @@ import br.com.gbraghim.eventmanager.model.User;
 
 @Controller
 public class LoginController {
-    // Aqui estou setando o login service (aqui ocorre dependency injection, que vem do Login Service)
-    @Autowired //pelo que entendi trabalha em conjunto com o @service realizando a dependency injection
-    LoginService service;
+    public static final String INDEX_PAGE = "index";
 
-    //metodo com get
+    @Autowired
+    private LoginService service;
+
     @RequestMapping(value = "/index", method = RequestMethod.GET)
-    public String showLoginPage(){
-            return "index"; //exibe a pagina index
+    public String showLoginPage() {
+        return INDEX_PAGE; //exibe a pagina index
     }
 
-    //metodo com post
-    @RequestMapping(value = "/index", method = RequestMethod.POST)
-
-    public String handleLoginRequest(String email, String password, ModelMap model){
-        /*String password = user.getPassword();
-        String email = user.getEmail();*/
-
-        if (!service.validateUser(email,password)){
-          model.put("errorMessage", "Credenciais invalidas");
-           return "index"; // se a senha tiver errada volta para a tela de login
+    @RequestMapping(value = "/signin", method = RequestMethod.POST)
+    public String handleLoginRequest(String email, String password, ModelMap model) {
+        if (!service.validateUser(email, password)) {
+            model.put("errorMessage", "Credenciais invalidas");
+            return INDEX_PAGE;
+        } else {
+            model.put("email", email);
+            model.put("password", password);
+            return "welcome";
         }
-
-        //segue o fluxo caso tudo esteja ok e mostra
-        model.put("email", email);
-        model.put("password", password);
-        return "welcome";
     }
 }
