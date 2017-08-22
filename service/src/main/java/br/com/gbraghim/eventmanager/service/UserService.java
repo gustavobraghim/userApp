@@ -1,12 +1,18 @@
-package br.com.gbraghim.eventmanager.model;
+package br.com.gbraghim.eventmanager.service;
+import br.com.gbraghim.eventmanager.model.dao.UserDAO;
+import br.com.gbraghim.eventmanager.model.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import java.util.List;
+
+@Service
 public class UserService {
 
     @Autowired
     private UserDAO userDAO;
 
-    private void registraCliente(String nEmail, String nPassword, String nNome){
+    public void registraCliente(String nEmail, String nPassword, String nNome){
         User usuario = new User();
         usuario.setEmail(nEmail);
         usuario.setNome(nNome);
@@ -16,19 +22,22 @@ public class UserService {
         userDAO.createUser(usuario);
     }
 
-    private void alteraNome(String email, String nomeNovo){
+    public void alteraNome(String email, String nomeNovo){
         User existingUser = userDAO.getByEmail(email);
         existingUser.setNome(nomeNovo);
         //Persistencia
-        userDAO.UpdateUser(existingUser);
+        userDAO.updateUser(existingUser);
     }
 
-    private void alteraPassword(String email, String nomePassword){
+    public void alteraPassword(String email, String nomePassword){
         User existingUser = userDAO.getByEmail(email);
         existingUser.setPassword(nomePassword);
         //Persistencia
-        userDAO.UpdateUser(existingUser);
+        userDAO.updateUser(existingUser);
     }
 
 
+    public List<User> findAll() {
+        return userDAO.findAll();
+    }
 }
