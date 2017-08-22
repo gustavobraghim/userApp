@@ -7,5 +7,6 @@
     Email: ${email}
     Password: ${password}
     <a href="index">Home</a>
+    <a href="edit">Editar dados</a>
     </body>
 </html>

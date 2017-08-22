@@ -9,9 +9,8 @@
                 Password: <input name="password" type="password" />
                 Email: <input name="email" type="text" />
 
-                <input type="submit" value="Enviar"/>
+                <input type="submit" value="Cadastrar"/>
          </form>
           <a href="index">Home</a>
-
     </body>
 </html>

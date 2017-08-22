@@ -8,16 +8,6 @@
 
     <context:component-scan base-package="br.com.gbraghim.eventmanager" />
 
-    <bean
-            class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix">
-            <value>/views/</value>
-        </property>
-        <property name="suffix">
-            <value>.jsp</value>
-        </property>
-    </bean>
-
     <mvc:annotation-driven />
 
 </beans>

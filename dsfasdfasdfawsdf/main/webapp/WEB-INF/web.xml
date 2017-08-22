@@ -4,9 +4,7 @@
          version="3.0">
 
   <display-name>Index</display-name>
-  <welcome-file-list>
-    <welcome-file>index.do</welcome-file>
-  </welcome-file-list>
+
 
   <servlet>
     <servlet-name>dispatcher</servlet-name>
