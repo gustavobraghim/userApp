@@ -1,7 +1,7 @@
 package br.com.gbraghim.eventmanager.model.test;
 
-import br.com.gbraghim.eventmanager.model.User;
-import br.com.gbraghim.eventmanager.model.UserDAO;
+import br.com.gbraghim.eventmanager.model.dao.UserDAO;
+import br.com.gbraghim.eventmanager.model.domain.User;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -18,7 +18,7 @@ public class UserDaoTest {
         user.setPassword(password);
 
         UserDAO userDAO = new UserDAO();
-        userDAO.UpdateUser(user);
+        userDAO.updateUser(user);
 
         User byEmail = userDAO.getByEmail(email);
 

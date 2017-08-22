@@ -1,4 +1,4 @@
-package br.com.gbraghim.eventmanager.model;
+package br.com.gbraghim.eventmanager.model.domain;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;

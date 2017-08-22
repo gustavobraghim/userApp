@@ -1,14 +1,21 @@
-package br.com.gbraghim.eventmanager.model;
+package br.com.gbraghim.eventmanager.model.dao;
+
+import br.com.gbraghim.eventmanager.model.domain.User;
 import org.springframework.stereotype.Repository;
 
-import javax.persistence.*;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 
 @Repository
 public class UserDAO {
     private final EntityManager manager;
 
     public UserDAO () {
-        final EntityManagerFactory factory = Persistence.createEntityManagerFactory("hsql");
+        final EntityManagerFactory factory = Persistence.createEntityManagerFactory("persistenceProvider");
         manager = factory.createEntityManager();
     }
 
@@ -22,7 +29,7 @@ public class UserDAO {
         }
     }
 
-    public void UpdateUser(User user) {
+    public void updateUser(User user) {
         try {
             manager.getTransaction().begin();
             manager.merge(user);
@@ -31,6 +38,8 @@ public class UserDAO {
             manager.getTransaction().rollback();
         }
     }
+
+
 
     public User getByEmail(final String email) {
         return manager.find(User.class, email);
@@ -42,5 +51,11 @@ public class UserDAO {
 
     public User getByPassword(final String password) {
         return manager.find(User.class, password);
+    }
+
+    public List<User> findAll() {
+        String jpql = "FROM " + User.class.getSimpleName();
+        return Optional.ofNullable(manager.createQuery(jpql).getResultList())
+                .orElse(new ArrayList());
     }
 }
