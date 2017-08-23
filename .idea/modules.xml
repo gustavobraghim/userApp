@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/userApp.iml" filepath="$PROJECT_DIR$/userApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/eventmanager-model.iml" filepath="$PROJECT_DIR$/model/eventmanager-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eventmanager-parent.iml" filepath="$PROJECT_DIR$/eventmanager-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-api/eventmanager-rest-api.iml" filepath="$PROJECT_DIR$/rest-api/eventmanager-rest-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/eventmanager-service.iml" filepath="$PROJECT_DIR$/service/eventmanager-service.iml" />
     </modules>
   </component>
 </project>

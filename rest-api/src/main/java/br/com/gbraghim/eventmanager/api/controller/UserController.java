@@ -3,12 +3,10 @@ package br.com.gbraghim.eventmanager.api.controller;
 import br.com.gbraghim.eventmanager.model.domain.User;
 import br.com.gbraghim.eventmanager.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/users")
@@ -22,13 +20,20 @@ public class UserController {
         return userService.findAll();
     }
 
+    @RequestMapping(value = "/{userId}", method = RequestMethod.GET)
+    public User getUser(@PathVariable UUID userId) {
+        User user = userService.findById(userId);
+        user.setPassword(null);
+        return user;
+    }
+
     @RequestMapping(method = RequestMethod.POST)
-    public void createUser(User user) {
-        System.out.println(user);
+    public void createUser(@RequestBody  User user) {
+        userService.registraCliente(user.getId(), user.getEmail(), user.getNome(), user.getPassword());
     }
 
     @RequestMapping(value = "/{userId}", method = RequestMethod.PUT)
-    public void editUser(@PathVariable String userId, User user) {
+    public void editUser(@PathVariable UUID userId, User user) {
         System.out.println(user);
     }
 

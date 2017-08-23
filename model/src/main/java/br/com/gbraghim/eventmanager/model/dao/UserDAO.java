@@ -9,6 +9,7 @@ import javax.persistence.Persistence;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.UUID;
 
 @Repository
 public class UserDAO {
@@ -40,8 +41,13 @@ public class UserDAO {
     }
 
 
+    public int checkEmail(final String newEmail){
+        manager.createNativeQuery("SELECT newEmail("+newEmail+") FROM user)");
+//https://www.tutorialspoint.com/hibernate/hibernate_native_sql.htm
+        return 0; //retornar o count. se o count for !=0 já tem alguém com o email digitado cadastrado
+    };
 
-    public User getByEmail(final String email) {
+    public User getByEmail(final UUID email) {
         return manager.find(User.class, email);
     }
 
@@ -52,6 +58,11 @@ public class UserDAO {
     public User getByPassword(final String password) {
         return manager.find(User.class, password);
     }
+
+    public User getById(final UUID uuid) {
+        return manager.find(User.class, uuid);
+    }
+
 
     public List<User> findAll() {
         String jpql = "FROM " + User.class.getSimpleName();

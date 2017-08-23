@@ -5,6 +5,8 @@ import br.com.gbraghim.eventmanager.model.domain.User;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.UUID;
+
 public class UserDaoTest {
 
     @Test
@@ -16,12 +18,14 @@ public class UserDaoTest {
         user.setEmail(email);
         String password = "123456";
         user.setPassword(password);
+        UUID uuid = UUID.randomUUID();
+        user.setId(uuid);
 
         UserDAO userDAO = new UserDAO();
         userDAO.updateUser(user);
 
-        User byEmail = userDAO.getByEmail(email);
+        User byEmail = userDAO.getByEmail(uuid);
 
-        Assert.assertEquals(user, byEmail);
+        Assert.assertEquals(user, uuid);
     }
 }
