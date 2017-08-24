@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import javax.persistence.Query;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -41,10 +42,12 @@ public class UserDAO {
     }
 
 
-    public int checkEmail(final String newEmail){
-        manager.createNativeQuery("SELECT newEmail("+newEmail+") FROM user)");
-//https://www.tutorialspoint.com/hibernate/hibernate_native_sql.htm
-        return 0; //retornar o count. se o count for !=0 já tem alguém com o email digitado cadastrado
+
+
+    public long checkEmail(String newEmail){
+        Query query = manager.createNativeQuery("SELECT COUNT(email) FROM user WHERE email = newEmail)");
+        long emailCount = (Long)query.getSingleResult();
+        return emailCount;
     };
 
     public User getByEmail(final UUID email) {

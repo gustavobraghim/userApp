@@ -2,6 +2,7 @@ package br.com.gbraghim.eventmanager.api.controller;
 
 import br.com.gbraghim.eventmanager.model.domain.User;
 import br.com.gbraghim.eventmanager.service.UserService;
+import br.com.gbraghim.eventmanager.service.exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -21,7 +22,7 @@ public class UserController {
     }
 
     @RequestMapping(value = "/{userId}", method = RequestMethod.GET)
-    public User getUser(@PathVariable UUID userId) {
+    public User getUser(@PathVariable UUID userId) throws ResourceNotFoundException {
         User user = userService.findById(userId);
         user.setPassword(null);
         return user;

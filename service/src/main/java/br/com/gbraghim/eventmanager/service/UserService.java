@@ -1,5 +1,5 @@
 package br.com.gbraghim.eventmanager.service;
-import br.com.gbraghim.eventmanager.exception.ResouceNotFoundException;
+import br.com.gbraghim.eventmanager.service.exception.ResourceNotFoundException;
 import br.com.gbraghim.eventmanager.model.dao.UserDAO;
 import br.com.gbraghim.eventmanager.model.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,21 +17,18 @@ public class UserService {
     private UserDAO userDAO;
 
     public void registraCliente(UUID id, String nEmail, String nPassword, String nNome){
-        User usuario = new User();
-        usuario.setId(id);
-        usuario.setEmail(nEmail);
-        usuario.setNome(nNome);
-        usuario.setPassword(nPassword);
-
-        //String emailAuxiliar = userDAO.getByEmail({$userId});
-
-            if(emailAuxiliar == usuario.getEmail()){
-                System.out.println("Erro: já tem o email no banco. LANÇAR A EXCEPTION");
-            }
-            else {
-                System.out.println("Registrando usuario: " + usuario);
-                userDAO.createUser(usuario);
-            }
+        if (userDAO.checkEmail(nEmail)==0){ //estou garantindo que o email do usuario é unico
+            User usuario = new User();
+            usuario.setId(id);
+            usuario.setEmail(nEmail);
+            usuario.setNome(nNome);
+            usuario.setPassword(nPassword);
+            System.out.println("Registrando usuario: " + usuario);
+            userDAO.createUser(usuario);
+        }
+        else {
+            new ResourceNotFoundException("Erro: já tem o email no banco. LANÇAR A EXCEPTION");
+        }
     }
 
     public void alteraNome(UUID uuid, String nomeNovo){
@@ -50,9 +47,11 @@ public class UserService {
         return userDAO.findAll();
     }
 
-    @Transactional(Transactional.TxType.NOT_SUPPORTED)
-    public User findById(UUID userId) {
+
+
+ @Transactional(Transactional.TxType.NOT_SUPPORTED)
+    public User findById(UUID userId) throws ResourceNotFoundException {
         return Optional.ofNullable(userDAO.getById(userId))
-                .orElseThrow(() -> new ResouceNotFoundException("User not found: " + userId));
+                .orElseThrow(() -> new ResourceNotFoundException("User not found: " + userId));
     }
 }

@@ -12,7 +12,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="eventmanager-api" target="1.8" />
       <module name="eventmanager-model" target="1.8" />
       <module name="eventmanager-parent" target="1.8" />
       <module name="eventmanager-rest-api" target="1.8" />
