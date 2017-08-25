@@ -24,18 +24,29 @@ public class UserController {
     @RequestMapping(value = "/{userId}", method = RequestMethod.GET)
     public User getUser(@PathVariable UUID userId) throws ResourceNotFoundException {
         User user = userService.findById(userId);
-        user.setPassword(null);
         return user;
     }
 
     @RequestMapping(method = RequestMethod.POST)
-    public void createUser(@RequestBody  User user) {
-        userService.registraCliente(user.getId(), user.getEmail(), user.getNome(), user.getPassword());
+    public void createUser(@RequestBody User user) throws ResourceNotFoundException {
+        userService.registraCliente(user.getId(), user.getEmail(), user.getPassword(), user.getNome());
     }
 
-    @RequestMapping(value = "/{userId}", method = RequestMethod.PUT)
-    public void editUser(@PathVariable UUID userId, User user) {
-        System.out.println(user);
+    @RequestMapping(value = "/{userId}/userName", method = RequestMethod.PUT)
+    public void editUserName(@PathVariable UUID userId, @RequestBody User user) {
+        String nomeAux = user.getNome();
+        userService.alteraNome(userId, nomeAux);
     }
 
+    @RequestMapping(value = "/{userId}/userPassword", method = RequestMethod.PUT)
+    public void editUserPassword(@PathVariable UUID userId, @RequestBody User user) {
+        String passwordAux = user.getPassword();
+        userService.alteraPassword(userId, passwordAux);
+    }
+
+
+    @RequestMapping(value = "/{userId}", method = RequestMethod.DELETE)
+    public void deleteUser(@PathVariable UUID userId, @RequestBody User user) {
+        userService.deletaUser(userId);
+    }
 }

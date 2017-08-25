@@ -7,6 +7,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -41,13 +42,25 @@ public class UserDAO {
         }
     }
 
+    public void deleteUser(User user){
+        try{
+            manager.getTransaction().begin();
+            manager.remove(user);
+            manager.getTransaction().commit();
+        }
+        catch (Exception ex){
+            manager.getTransaction().rollback();;
+        }
+    }
+
 
 
 
     public long checkEmail(String newEmail){
-        Query query = manager.createNativeQuery("SELECT COUNT(email) FROM user WHERE email = newEmail)");
-        long emailCount = (Long)query.getSingleResult();
-        return emailCount;
+        Query query = manager.createNativeQuery("SELECT COUNT(email) FROM user WHERE email = ?");
+        query.setParameter(1, newEmail);
+        BigInteger emailCount = (BigInteger)query.getSingleResult();
+        return emailCount.longValue();
     };
 
     public User getByEmail(final UUID email) {

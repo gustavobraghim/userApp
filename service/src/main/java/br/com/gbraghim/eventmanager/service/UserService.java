@@ -1,7 +1,8 @@
 package br.com.gbraghim.eventmanager.service;
-import br.com.gbraghim.eventmanager.service.exception.ResourceNotFoundException;
+
 import br.com.gbraghim.eventmanager.model.dao.UserDAO;
 import br.com.gbraghim.eventmanager.model.domain.User;
+import br.com.gbraghim.eventmanager.service.exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,7 +17,7 @@ public class UserService {
     @Autowired
     private UserDAO userDAO;
 
-    public void registraCliente(UUID id, String nEmail, String nPassword, String nNome){
+    public void registraCliente(UUID id, String nEmail, String nPassword, String nNome) throws ResourceNotFoundException {
         if (userDAO.checkEmail(nEmail)==0){ //estou garantindo que o email do usuario é unico
             User usuario = new User();
             usuario.setId(id);
@@ -27,7 +28,7 @@ public class UserService {
             userDAO.createUser(usuario);
         }
         else {
-            new ResourceNotFoundException("Erro: já tem o email no banco. LANÇAR A EXCEPTION");
+            throw new ResourceNotFoundException("Erro: já tem o email no banco. LANÇAR A EXCEPTION");
         }
     }
 
@@ -43,6 +44,10 @@ public class UserService {
         userDAO.updateUser(existingUser);
     }
 
+    public void deletaUser(UUID uuid){
+        User existingUser = userDAO.getById(uuid);
+        userDAO.deleteUser(existingUser);
+    }
     public List<User> findAll() {
         return userDAO.findAll();
     }

@@ -2,6 +2,7 @@ package br.com.gbraghim.eventmanager.service;
 
 import br.com.gbraghim.eventmanager.model.dao.UserDAO;
 import br.com.gbraghim.eventmanager.model.domain.User;
+import br.com.gbraghim.eventmanager.service.exception.ResourceNotFoundException;
 import junit.framework.TestCase;
 import org.junit.Before;
 import org.junit.Test;
@@ -31,7 +32,7 @@ public class UserServiceTest extends TestCase{
     }
 
     @Test
-    public void registraClienteTest(){
+    public void registraClienteTest() throws ResourceNotFoundException {
         // O que eu preciso (cenario)
         String email = "email";
         String nome = "nome";
