@@ -40,7 +40,7 @@ public class UserServiceTest extends TestCase{
         UUID uuid = UUID.randomUUID();
 
         // O que quero testar
-        userService.registraCliente(user.getId(), email, password, nome);
+        userService.registraCliente(uuid, email, password, nome);
 
         // O que espero que aconteca
         user.setEmail(email);
@@ -97,32 +97,20 @@ public class UserServiceTest extends TestCase{
         Mockito.verify(userDAO).updateUser(novoUser);
     }
 
-    /*@Test
-    public void usuarioInvalido(){
-         UUID uuid = UUID.randomUUID();
-        String email = "gbraghim@bla";
-        String password = "123456";
-        String newPassword = "aaaaa";
-        String nome = "Gustavo";
+    @Test
+    public void deleteUserTest(){
+        UUID uuid = UUID.randomUUID();
 
         User userOriginal = new User();
-        userOriginal.setPassword(password);
-        userOriginal.setNome(nome);
-
-        when(userDAO.getBuId(uuid)).thenReturn(userOriginal);
-        userService.alteraPassword("asdsafsafsa",password);
+        userOriginal.setId(uuid);
 
         User novoUser = new User();
-        novoUser.setPassword(newPassword);
         novoUser.setId(uuid);
 
-        Mockito.verify(userDAO).updateUser(novoUser);
-    }*/
+        when(userDAO.getById(uuid)).thenReturn(userOriginal);
+        userService.deletaUser(uuid);
 
-/*
-    @Test
-    public List<User> findAll() {
-        return userDAO.findAll();
+        Mockito.verify(userDAO).deleteUser(novoUser);
     }
-*/
+
 }

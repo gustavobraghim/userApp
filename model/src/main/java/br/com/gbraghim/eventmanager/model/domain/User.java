@@ -62,10 +62,10 @@ public class User {
 
         User user = (User) o;
 
-        if (!getId().equals(user.getId())) return false;
-        if (!getEmail().equals(user.getEmail())) return false;
-        if (!getNome().equals(user.getNome())) return false;
-        return getPassword().equals(user.getPassword());
+        if (getId() != null ? !getId().equals(user.getId()) : user.getId() != null) return false;
+        if (getEmail() != null ? !getEmail().equals(user.getEmail()) : user.getEmail() != null) return false;
+        if (getNome() != null ? !getNome().equals(user.getNome()) : user.getNome() != null) return false;
+        return getPassword() != null ? getPassword().equals(user.getPassword()) : user.getPassword() == null;
     }
 
     @Override
