@@ -53,9 +53,6 @@ public class UserDAO {
         }
     }
 
-
-
-
     public long checkEmail(String newEmail){
         Query query = manager.createNativeQuery("SELECT COUNT(email) FROM user WHERE email = ?");
         query.setParameter(1, newEmail);
@@ -78,7 +75,6 @@ public class UserDAO {
     public User getById(final UUID uuid) {
         return manager.find(User.class, uuid);
     }
-
 
     public List<User> findAll() {
         String jpql = "FROM " + User.class.getSimpleName();

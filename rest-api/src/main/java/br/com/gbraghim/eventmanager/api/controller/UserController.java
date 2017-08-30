@@ -12,7 +12,6 @@ import java.util.UUID;
 @RestController
 @RequestMapping("/users")
 public class UserController {
-
     @Autowired
     private UserService userService;
 
@@ -43,7 +42,6 @@ public class UserController {
         String passwordAux = user.getPassword();
         userService.alteraPassword(userId, passwordAux);
     }
-
 
     @RequestMapping(value = "/{userId}", method = RequestMethod.DELETE)
     public void deleteUser(@PathVariable UUID userId, @RequestBody User user) {

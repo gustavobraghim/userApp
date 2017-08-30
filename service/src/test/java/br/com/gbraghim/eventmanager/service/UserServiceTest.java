@@ -13,6 +13,9 @@ import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.mockito.junit.MockitoJUnitRunner;
 
+import java.io.UnsupportedEncodingException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.UUID;
 
 import static org.mockito.Mockito.when;
@@ -37,15 +40,35 @@ public class UserServiceTest extends TestCase{
         String email = "email";
         String nome = "nome";
         String password = "password";
+        String senhaHex = null;
         UUID uuid = UUID.randomUUID();
 
+        try {
+            MessageDigest messageDigest1 = MessageDigest.getInstance("SHA-256");
+            byte messageDigest[] = messageDigest1.digest(password.getBytes("UTF-8"));
+
+            StringBuilder stringBuilder = new StringBuilder();
+
+            for (byte b : messageDigest) {
+                stringBuilder.append(String.format("%02X", 0xFF & b));
+            }
+
+            senhaHex = stringBuilder.toString();
+
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+
         // O que quero testar
-        userService.registraCliente(uuid, email, password, nome);
+        userService.registraCliente(uuid, email, senhaHex, nome);
 
         // O que espero que aconteca
         user.setEmail(email);
         user.setNome(nome);
-        user.setPassword(password);
+        user.setPassword(senhaHex);
         user.setId(uuid);
         Mockito.verify(userDAO).createUser(user);
     }
@@ -53,7 +76,6 @@ public class UserServiceTest extends TestCase{
     @Test
     public void alteraNomeTest(){
         //do que eu preciso? do usuario (email)
-        String email = "email";
         String nome = "Gustavo";
         String nomeNovo = "Marcelo";
         UUID uuid = UUID.randomUUID();
@@ -76,7 +98,6 @@ public class UserServiceTest extends TestCase{
 
     @Test
     public void alteraPasswordTest(){
-        String email = "gbraghim@bla";
         String password = "123456";
         String newPassword = "abcdef";
         UUID uuid = UUID.randomUUID();
@@ -112,5 +133,6 @@ public class UserServiceTest extends TestCase{
 
         Mockito.verify(userDAO).deleteUser(novoUser);
     }
+
 
 }
