@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/eventmanager-parent.iml" filepath="$PROJECT_DIR$/eventmanager-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/rest-api/eventmanager-rest-api.iml" filepath="$PROJECT_DIR$/rest-api/eventmanager-rest-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/eventmanager-service.iml" filepath="$PROJECT_DIR$/service/eventmanager-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testando/testando.iml" filepath="$PROJECT_DIR$/testando/testando.iml" />
     </modules>
   </component>
 </project>

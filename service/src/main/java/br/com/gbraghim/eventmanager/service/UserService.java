@@ -23,7 +23,7 @@ public class UserService {
     @Autowired
     private UserDAO userDAO;
 
-    public void registraCliente(UUID id, String nEmail, String nPassword, String nNome) throws ResourceNotFoundException {
+    public User registraCliente(UUID id, String nEmail, String nPassword, String nNome) throws ResourceNotFoundException {
         if (userDAO.checkEmail(nEmail)==0){ //estou garantindo que o email do usuario é unico
             String passwordAux = nPassword;
 
@@ -52,6 +52,7 @@ public class UserService {
 
             System.out.println("Registrando usuario: " + usuario);
             userDAO.createUser(usuario);
+            return usuario;
         }
         else {
             throw new ResourceNotFoundException("Erro: já tem o email no banco. LANÇAR A EXCEPTION");

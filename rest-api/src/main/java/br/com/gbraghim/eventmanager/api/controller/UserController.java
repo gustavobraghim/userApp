@@ -27,8 +27,8 @@ public class UserController {
     }
 
     @RequestMapping(method = RequestMethod.POST)
-    public void createUser(@RequestBody User user) throws ResourceNotFoundException {
-        userService.registraCliente(user.getId(), user.getEmail(), user.getPassword(), user.getNome());
+    public User createUser(@RequestBody User user) throws ResourceNotFoundException {
+        return userService.registraCliente(user.getId(), user.getEmail(), user.getPassword(), user.getNome());
     }
 
     @RequestMapping(value = "/{userId}/userName", method = RequestMethod.PUT)
