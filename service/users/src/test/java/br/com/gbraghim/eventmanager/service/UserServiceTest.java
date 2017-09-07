@@ -22,11 +22,8 @@ import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
 public class UserServiceTest extends TestCase{
-
-    @Mock //estudar mockito
-    private UserDAO userDAO;
-    @InjectMocks
-    UserService userService = new UserService();
+    @Mock private UserDAO userDAO;
+    @InjectMocks UserService userService = new UserService();
     User user = new User();
 
     @Before
@@ -60,7 +57,6 @@ public class UserServiceTest extends TestCase{
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
-
 
         // O que quero testar
         userService.registraCliente(uuid, email, senhaHex, nome);

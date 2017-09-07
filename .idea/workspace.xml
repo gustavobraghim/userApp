@@ -2,522 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5a7ad89-192d-4a2a-8b53-2d67c653de6d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/CacheAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/CacheAdapterFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/MysqlConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/PingTarget.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/ProfilerEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/ProfilerEventHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/Session.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/WarningListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/authentication/AuthenticationProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/conf/ConnectionPropertiesTransform.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/conf/DatabaseUrlContainer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/conf/ModifiableProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/conf/PropertyDefinition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/conf/PropertySet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/conf/ReadableProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/conf/RuntimeProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/exceptions/DeadlockTimeoutRollbackMarker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/exceptions/ExceptionInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/exceptions/StreamingNotifiable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/io/OutputStreamWatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/io/PacketReceivedTimeHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/io/PacketSentTimeHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/io/Protocol.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/io/ServerCapabilities.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/io/ServerSession.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/io/SocketConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/io/SocketFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/io/SocketMetadata.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/io/ValueDecoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/io/ValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/io/WatchableStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/jdbc/ClientInfoProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/jdbc/JdbcConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/jdbc/JdbcPropertySet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/jdbc/ParameterBindings.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/jdbc/Statement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/jdbc/ha/BalanceStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/jdbc/ha/LoadBalanceExceptionChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/jdbc/ha/LoadBalancedConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/jdbc/ha/ReplicationConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/jdbc/interceptors/ConnectionLifecycleInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/jdbc/interceptors/StatementInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/jdbc/result/ResultSetInternalMethods.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/log/Log.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/mysqla/authentication/AuthenticationPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/mysqla/io/NativeProtocol.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/mysqla/io/PacketHeader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/mysqla/io/PacketPayload.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/mysqla/io/PacketReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/mysqla/io/PacketSender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/mysqla/io/ProtocolEntityFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/mysqla/io/ProtocolEntityReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/mysqla/result/ColumnDefinition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/mysqla/result/ProtocolEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/mysqla/result/Resultset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/mysqla/result/ResultsetRow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/mysqla/result/ResultsetRows.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/mysqla/result/ResultsetRowsOwner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/result/Row.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/result/RowList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/x/core/ResultCtor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/x/core/RowToElement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/x/core/Warning.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/x/io/ColToFieldTransformer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/x/io/DecoderFunction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/x/io/MessageConstants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/x/io/MessageListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/x/io/MessageReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/x/io/MessageWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/x/io/MetadataToRowToElement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/x/io/ResultListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/x/io/ResultStreamer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/x/io/XpluginStatementCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/AddStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/BaseSession.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/Collection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/Column.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/ColumnDefinition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/CreateCollectionIndexStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/CreateTableStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/DataStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/DatabaseObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/DeleteStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/DocResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/DropCollectionIndexStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/Expression.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/FetchResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/FindStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/ForeignKeyDefinition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/InsertStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/JsonValue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/ModifyStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/NodeSession.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/RemoveStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/Result.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/Row.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/RowResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/Schema.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/SelectStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/SqlResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/SqlStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/Statement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/Table.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/Type.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/UpdateStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/UpdateType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/ViewCreate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/ViewCreateDefined.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/ViewDDL.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/ViewDrop.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/ViewUpdate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/Warning.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/XSession.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/api/xdevapi/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/AbstractSession.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/CharsetMapping.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/Collation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/Constants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/LicenseConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/Messages.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/MysqlCharset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/MysqlType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/ServerVersion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/admin/ServerController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/authentication/Security.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/AbstractPropertyDefinition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/AbstractReadableProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/AbstractRuntimeProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/BooleanPropertyDefinition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/DefaultPropertySet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/IntegerPropertyDefinition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/LongPropertyDefinition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/MemorySizePropertyDefinition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/ModifiableBooleanProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/ModifiableIntegerProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/ModifiableLongProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/ModifiableMemorySizeProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/ModifiableStringProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/PropertyDefinitions.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/ReadableBooleanProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/ReadableIntegerProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/ReadableLongProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/ReadableMemorySizeProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/ReadableStringProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/StringPropertyDefinition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/url/ConnectionUrl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/url/ConnectionUrlParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/url/FailoverConnectionUrl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/url/HostInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/url/LoadbalanceConnectionUrl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/url/ReplicationConnectionUrl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/url/SingleConnectionUrl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/conf/url/XDevAPIConnectionUrl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/AssertionFailedException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/CJCommunicationsException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/CJConnectionFeatureNotAvailableException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/CJException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/CJOperationNotSupportedException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/CJPacketTooBigException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/CJTimeoutException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/ClosedOnExpiredPasswordException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/ConnectionIsClosedException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/DataConversionException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/DataReadException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/DataTruncationException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/ExceptionFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/FeatureNotAvailableException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/InvalidConnectionAttributeException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/MysqlErrorNumbers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/NumberOutOfRange.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/OperationCancelledException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/PasswordExpiredException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/PropertyNotModifiableException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/RSAException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/SSLParamsException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/StatementIsClosedException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/UnableToConnectException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/exceptions/WrongArgumentException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/AbstractProtocol.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/AbstractSocketConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/BaseDecoratingValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/BigDecimalValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/BinaryStreamValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/BooleanValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/ByteValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/DefaultValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/DoubleValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/ExportControlled.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/FloatValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/FloatingPointBoundsEnforcer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/FullReadInputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/IntegerBoundsEnforcer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/IntegerValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/LongValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/MysqlBinaryValueDecoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/MysqlTextValueDecoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/NamedPipeSocketFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/NetworkResources.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/ReadAheadInputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/ShortValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/SocksProxySocketFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/StandardSocketFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/StringConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/StringValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/WatchableOutputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/WatchableWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/WriterWatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/YearToDateValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/ZeroDateTimeToDefaultValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/io/ZeroDateTimeToNullValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/log/Jdk14Logger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/log/LogFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/log/NullLogger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/log/Slf4JLogger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/log/StandardLogger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/profiler/LoggingProfilerEventHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/profiler/ProfilerEventHandlerFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/profiler/ProfilerEventImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/result/BufferedRowList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/result/Field.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/util/Base64Decoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/util/EscapeTokenizer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/util/LRUCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/util/LazyString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/util/LogUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/util/PerVmServerConfigCacheFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/util/StringUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/util/TestUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/util/Util.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/AbandonedConnectionCleanupThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/AbstractJdbcConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/Blob.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/BlobFromLocator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/CallableStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/CallableStatementWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ClientInfoProviderSP.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/Clob.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/CommentClientInfoProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ConnectionGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ConnectionGroupManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ConnectionImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ConnectionWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/DatabaseMetaData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/DatabaseMetaDataUsingInfoSchema.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/DocsConnectionPropsHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/Driver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/EscapeProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/EscapeProcessorResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/IterateBlock.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/JdbcPropertySetImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/MysqlConnectionPoolDataSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/MysqlDataSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/MysqlDataSourceFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/MysqlParameterMetadata.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/MysqlPooledConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/MysqlSQLXML.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/MysqlSavepoint.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/MysqlXAConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/MysqlXADataSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/MysqlXAException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/MysqlXid.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/NClob.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/NonRegisteringDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/PreparedStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/PreparedStatementWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ServerPreparedStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/StatementImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/StatementWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/SuspendableXAConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/WrapperBase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/admin/MiniAdmin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/admin/TimezoneDump.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/exceptions/CommunicationsException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/exceptions/ConnectionFeatureNotAvailableException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/exceptions/MySQLQueryInterruptedException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/exceptions/MySQLStatementCancelledException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/exceptions/MySQLTimeoutException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/exceptions/MySQLTransactionRollbackException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/exceptions/MysqlDataTruncation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/exceptions/NotUpdatable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/exceptions/OperationNotSupportedException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/exceptions/PacketTooBigException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/exceptions/SQLError.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ha/BestResponseTimeBalanceStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ha/FailoverConnectionProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ha/LoadBalancedAutoCommitInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ha/LoadBalancedConnectionProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ha/LoadBalancedMySQLConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ha/MultiHostConnectionProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ha/MultiHostMySQLConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ha/NdbLoadBalanceExceptionChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ha/RandomBalanceStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ha/ReplicationConnectionGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ha/ReplicationConnectionGroupManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ha/ReplicationConnectionProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ha/ReplicationMySQLConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ha/SequentialBalanceStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/ha/StandardLoadBalanceExceptionChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/integration/c3p0/MysqlConnectionTester.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/integration/jboss/ExtendedMysqlExceptionSorter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/integration/jboss/MysqlValidConnectionChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/interceptors/NoSubInterceptorWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/interceptors/ResultSetScannerInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/interceptors/ServerStatusDiffInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/interceptors/SessionAssociationInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/io/JdbcDateValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/io/JdbcLocalDateTimeValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/io/JdbcLocalDateValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/io/JdbcLocalTimeValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/io/JdbcTimeValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/io/JdbcTimestampValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/io/ResultSetFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/jmx/LoadBalanceConnectionGroupManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/jmx/LoadBalanceConnectionGroupManagerMBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/jmx/ReplicationGroupManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/jmx/ReplicationGroupManagerMBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/result/CachedResultSetMetaData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/result/ResultSetImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/result/ResultSetMetaData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/result/UpdatableResultSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/util/BaseBugReport.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/util/ErrorMappingsDocGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/util/PerConnectionLRUFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/util/PropertiesDocGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/util/ResultSetUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/util/TimeUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/MysqlaConstants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/MysqlaSession.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/MysqlaUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/authentication/MysqlClearPasswordPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/authentication/MysqlNativePasswordPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/authentication/MysqlOldPasswordPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/authentication/MysqlaAuthenticationProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/authentication/Sha256PasswordPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/AbstractRowFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/BinaryResultsetReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/BinaryRowFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/Buffer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/ColumnDefinitionFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/ColumnDefinitionReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/CompressedInputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/CompressedPacketSender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/DebugBufferingPacketReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/DebugBufferingPacketSender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/DefaultPacketHeader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/MergingColumnDefinitionFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/MultiPacketReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/MysqlaCapabilities.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/MysqlaProtocol.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/MysqlaServerSession.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/MysqlaSocketConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/PacketSplitter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/ResultsetFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/ResultsetRowReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/SimplePacketReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/SimplePacketSender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/TextResultsetReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/TextRowFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/TimeTrackingPacketReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/TimeTrackingPacketSender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/TracingPacketReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/io/TracingPacketSender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/result/AbstractBufferRow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/result/AbstractResultsetRow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/result/AbstractResultsetRows.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/result/BinaryBufferRow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/result/ByteArrayRow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/result/MysqlaColumnDefinition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/result/MysqlaResultset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/result/OkPacket.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/result/ResultsetRowsCursor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/result/ResultsetRowsStatic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/result/ResultsetRowsStreaming.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/mysqla/result/TextBufferRow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/core/CoreWarning.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/core/DatabaseObjectDescription.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/core/MysqlxSession.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/core/StatementExecuteOk.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/core/XDevAPIError.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/AsyncMessageReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/AsyncMessageWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/DevapiRowFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/ErrorToFutureCompletionHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/MessageBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/ResultCreatingResultListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/ResultMessageListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/RowWiseReducingResultListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/SerializingBufferWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/SqlResultMessageListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/StatementExecuteOkBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/StatementExecuteOkMessageListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/SyncMessageReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/SyncMessageWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/TlsDecryptingByteChannel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/TlsEncryptingByteChannel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/XProtocol.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/XProtocolDecoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/XProtocolEncoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/XProtocolFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/XProtocolRow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/io/XProtocolRowInputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/protobuf/Mysqlx.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/protobuf/MysqlxConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/protobuf/MysqlxCrud.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/protobuf/MysqlxDatatypes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/protobuf/MysqlxExpect.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/protobuf/MysqlxExpr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/protobuf/MysqlxNotice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/protobuf/MysqlxResultset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/protobuf/MysqlxSession.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/protobuf/MysqlxSql.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/x/protobuf/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/AbstractColumnDef.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/AbstractDataResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/AbstractSession.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/AbstractViewDDLStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/AddStatementImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/CollectionImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/ColumnDef.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/ColumnImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/CreateCollectionIndexStatementImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/CreateIndexParams.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/CreateTableStatementImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/CreateViewDefinedStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/CreateViewStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/DbDoc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/DbDocValueFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/DeleteStatementImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/DocFindParams.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/DocResultImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/DocumentID.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/DropCollectionIndexStatementImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/DropViewStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/ExprParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/ExprUnparser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/ExprUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/FilterParams.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/FilterableStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/FindParams.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/FindStatementImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/ForeignKeyDef.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/GeneratedColumnDef.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/InsertParams.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/InsertStatementImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/JsonArray.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/JsonLiteral.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/JsonNumber.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/JsonParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/JsonString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/ModifyStatementImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/NodeSessionImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/RemoveStatementImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/RowImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/RowResultImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/SchemaImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/SelectStatementImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/SqlDataResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/SqlResultImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/SqlStatementImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/SqlUpdateResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/TableFindParams.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/TableImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/UpdateParams.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/UpdateResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/UpdateSpec.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/UpdateStatementImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/UpdateViewStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/VirtualNodeSession.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/WarningImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/XSessionFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/XSessionImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/xdevapi/package-info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/jdbc/Driver.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/java/br/com/gbraghim/eventmanager/controller/EditDataController.java" afterPath="$PROJECT_DIR$/web/main/java/br/com/gbraghim/eventmanager/controller/EditDataController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/java/br/com/gbraghim/eventmanager/controller/InitService.java" afterPath="$PROJECT_DIR$/web/main/java/br/com/gbraghim/eventmanager/controller/InitService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/java/br/com/gbraghim/eventmanager/controller/LoginController.java" afterPath="$PROJECT_DIR$/web/main/java/br/com/gbraghim/eventmanager/controller/LoginController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/java/br/com/gbraghim/eventmanager/controller/LoginService.java" afterPath="$PROJECT_DIR$/web/main/java/br/com/gbraghim/eventmanager/controller/LoginService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/java/br/com/gbraghim/eventmanager/controller/RegisterController.java" afterPath="$PROJECT_DIR$/web/main/java/br/com/gbraghim/eventmanager/controller/RegisterController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/java/br/com/gbraghim/eventmanager/controller/UserController.java" afterPath="$PROJECT_DIR$/web/main/java/br/com/gbraghim/eventmanager/controller/UserController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/java/br/com/gbraghim/eventmanager/model/hsqldb-2.2.4.jar" afterPath="$PROJECT_DIR$/web/main/java/br/com/gbraghim/eventmanager/model/hsqldb-2.2.4.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/web/main/resources/log4j.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/META-INF/INDEX.LIST" afterPath="$PROJECT_DIR$/web/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/META-INF/INDEX.LIST" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/web/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/META-INF/MANIFEST.MF" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/META-INF/services/java.sql.Driver" afterPath="$PROJECT_DIR$/web/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/META-INF/services/java.sql.Driver" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/configurations/3-0-Compat.properties" afterPath="$PROJECT_DIR$/web/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/configurations/3-0-Compat.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/configurations/5-0-Compat.properties" afterPath="$PROJECT_DIR$/web/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/configurations/5-0-Compat.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/configurations/clusterBase.properties" afterPath="$PROJECT_DIR$/web/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/configurations/clusterBase.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/configurations/coldFusion.properties" afterPath="$PROJECT_DIR$/web/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/configurations/coldFusion.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/configurations/fullDebug.properties" afterPath="$PROJECT_DIR$/web/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/configurations/fullDebug.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/configurations/maxPerformance.properties" afterPath="$PROJECT_DIR$/web/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/configurations/maxPerformance.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/configurations/solarisMaxPerformance.properties" afterPath="$PROJECT_DIR$/web/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/configurations/solarisMaxPerformance.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/LocalizedErrorMessages.properties" afterPath="$PROJECT_DIR$/web/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/core/LocalizedErrorMessages.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/util/TimeZoneMapping.properties" afterPath="$PROJECT_DIR$/web/main/webapp/WEB-INF/classes/META-INF/lib/mysql-connector-java-6.0.6.jar/com/mysql/cj/jdbc/util/TimeZoneMapping.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/web/main/webapp/WEB-INF/classes/META-INF/persistence.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/todo-servlet.xml" afterPath="$PROJECT_DIR$/web/main/webapp/WEB-INF/todo-servlet.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/views/deleteUser.jsp" afterPath="$PROJECT_DIR$/web/main/webapp/views/deleteUser.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/views/edit.jsp" afterPath="$PROJECT_DIR$/web/main/webapp/views/edit.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/views/editName.jsp" afterPath="$PROJECT_DIR$/web/main/webapp/views/editName.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/views/editPassword.jsp" afterPath="$PROJECT_DIR$/web/main/webapp/views/editPassword.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/views/index.jsp" afterPath="$PROJECT_DIR$/web/main/webapp/views/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/views/registerOK.jsp" afterPath="$PROJECT_DIR$/web/main/webapp/views/registerOK.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/views/signup.jsp" afterPath="$PROJECT_DIR$/web/main/webapp/views/signup.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dsfasdfasdfawsdf/main/webapp/views/welcome.jsp" afterPath="$PROJECT_DIR$/web/main/webapp/views/welcome.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/model/src/main/java/br/com/gbraghim/eventmanager/model/dao/UserDAO.java" afterPath="$PROJECT_DIR$/model/users/src/main/java/br/com/gbraghim/eventmanager/model/dao/UserDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/model/src/main/java/br/com/gbraghim/eventmanager/model/domain/User.java" afterPath="$PROJECT_DIR$/model/users/src/main/java/br/com/gbraghim/eventmanager/model/domain/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/model/src/test/java/br/com/gbraghim/eventmanager/model/test/UserDaoTest.java" afterPath="$PROJECT_DIR$/model/users/src/test/java/br/com/gbraghim/eventmanager/model/test/UserDaoTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/model/src/test/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/model/users/src/test/resources/META-INF/persistence.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rest-api/src/main/java/br/com/gbraghim/eventmanager/api/application/Application.java" afterPath="$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/application/Application.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rest-api/src/main/java/br/com/gbraghim/eventmanager/api/controller/UserController.java" afterPath="$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/controller/UserController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service/src/main/java/br/com/gbraghim/eventmanager/service/UserService.java" afterPath="$PROJECT_DIR$/service/users/src/main/java/br/com/gbraghim/eventmanager/service/UserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service/src/main/java/br/com/gbraghim/eventmanager/service/exception/ResourceNotFoundException.java" afterPath="$PROJECT_DIR$/service/users/src/main/java/br/com/gbraghim/eventmanager/service/exception/ResourceNotFoundException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service/src/test/java/br/com/gbraghim/eventmanager/service/UserServiceTest.java" afterPath="$PROJECT_DIR$/service/users/src/test/java/br/com/gbraghim/eventmanager/service/UserServiceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/application/Application.java" afterPath="$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/application/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/controller/UserController.java" afterPath="$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/users/src/test/java/br/com/gbraghim/eventmanager/service/UserServiceTest.java" afterPath="$PROJECT_DIR$/service/users/src/test/java/br/com/gbraghim/eventmanager/service/UserServiceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/model/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -535,35 +23,36 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/users/src/main/java/br/com/gbraghim/eventmanager/service/UserService.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="EventController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rest-api/events/src/main/java/api/controller/EventController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-732">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#alteraNome#0;class#UserService#0" expanded="false" />
+                <element signature="method#getEvent#0;class#EventController#0" expanded="false" />
+                <element signature="method#createEvent#0;class#EventController#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/events/src/main/java/EventService.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="43" />
+            <state relative-caret-position="493">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventServiceTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service/events/src/test/java/br/com/gbraghim/eventmanager/service/EventServiceTest.java">
+      <file leaf-file-name="EventApiTestIT.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rest-api/events/src/test/EventApiTestIT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -638,10 +127,21 @@
         <option value="$PROJECT_DIR$/service/users/src/main/java/br/com/gbraghim/eventmanager/service/UserService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/model/DAO/DAO.java" />
-        <option value="$PROJECT_DIR$/model/events/src/main/java/br/com/gbraghim/eventmanager/model/domain/Event.java" />
         <option value="$PROJECT_DIR$/model/users/src/main/java/br/com/gbraghim/eventmanager/model/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/model/events/src/main/java/br/com/gbraghim/eventmanager/model/dao/EventDAO.java" />
+        <option value="$PROJECT_DIR$/model/events/src/main/java/br/com/gbraghim/eventmanager/model/domain/Event.java" />
         <option value="$PROJECT_DIR$/service/events/src/main/java/EventService.java" />
+        <option value="$PROJECT_DIR$/service/users/src/test/java/br/com/gbraghim/eventmanager/service/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/model/events/src/main/java/br/com/gbraghim/eventmanager/model/dao/EventDAO.java" />
+        <option value="$PROJECT_DIR$/service/events/src/test/java/br/com/gbraghim/eventmanager/service/EventServiceTest.java" />
+        <option value="$PROJECT_DIR$/rest-api/events/src/main/java/br/com/gbraghim/eventmanager/Application.java" />
+        <option value="$PROJECT_DIR$/rest-api/events/src/main/java/br/com/gbraghim/eventmanager/application/Application.java" />
+        <option value="$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/api/application/Application.java" />
+        <option value="$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/application/Application.java" />
+        <option value="$PROJECT_DIR$/rest-api/events/src/main/java/api/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/service/events/src/main/java/br/com/gbraghim/eventmanager/service/EventService.java" />
+        <option value="$PROJECT_DIR$/rest-api/events/src/main/java/api/controller/EventController.java" />
+        <option value="$PROJECT_DIR$/rest-api/events/src/test/EventApiTestIT.java" />
       </list>
     </option>
   </component>
@@ -702,7 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -718,25 +218,20 @@
             <path>
               <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
               <item name="events" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
               <item name="events" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
               <item name="events" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -744,7 +239,7 @@
             <path>
               <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
               <item name="events" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -753,32 +248,164 @@
             <path>
               <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
               <item name="events" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userApp" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userApp" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userApp" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
               <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userApp" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userApp" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userApp" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userApp" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userApp" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userApp" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userApp" type="462c0819:PsiDirectoryNode" />
+              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userApp" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userApp" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userApp" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userApp" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userApp" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userApp" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -786,28 +413,31 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/rest-api/src/main/java/br/com/gbraghim/eventmanager/api" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/application" />
     <property name="SearchEverywhereHistoryKey" value=".xml&#9;FILE&#9;file://C:/Users/gbraghim/IdeaProjects/userApp/rest-api/src/main/resources/META-INF/persistence.xml&#10;uuid&#9;PSI&#9;JAVA://org.hibernate.internal.SessionFactoryImpl#uuid" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+      <recent name="br.com.gbraghim.eventmanager.jsonTest" />
+      <recent name="br.com.gbraghim.eventmanager.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gbraghim\IdeaProjects\userApp\rest-api\events\src\main\java" />
+      <recent name="C:\Users\gbraghim\IdeaProjects\userApp\service\events" />
+      <recent name="C:\Users\gbraghim\IdeaProjects\userApp\service\users" />
+      <recent name="C:\Users\gbraghim\IdeaProjects\userApp\rest-api\events" />
+      <recent name="C:\Users\gbraghim\IdeaProjects\userApp\model\events\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.gbraghim.eventmanager.service" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gbraghim\IdeaProjects\userApp\service\users" />
       <recent name="C:\Users\gbraghim\IdeaProjects\userApp\rest-api\users" />
       <recent name="C:\Users\gbraghim\IdeaProjects\userApp\model\user" />
       <recent name="C:\Users\gbraghim\IdeaProjects\userApp\userPackage" />
       <recent name="C:\Users\gbraghim\IdeaProjects\userApp\rest-api\src\test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\gbraghim\IdeaProjects\userApp\service\events" />
-      <recent name="C:\Users\gbraghim\IdeaProjects\userApp\service\users" />
-      <recent name="C:\Users\gbraghim\IdeaProjects\userApp\rest-api\events" />
-      <recent name="C:\Users\gbraghim\IdeaProjects\userApp\model\events\src\main" />
-      <recent name="C:\Users\gbraghim\IdeaProjects\userApp\model\events\src\main\java" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-      <recent name="br.com.gbraghim.eventmanager.jsonTest" />
-      <recent name="br.com.gbraghim.eventmanager.exception" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -822,35 +452,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserApiTestIT.testeDeleteUser">
-    <configuration name="UserApiTestIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="eventmanager-rest-api" />
+  <component name="RunManager" selected="JUnit.EventServiceTest.testAlteraDisponibilidade">
+    <configuration name="EventServiceTest.alteraDataEvento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.com.gbraghim.eventmanager.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="eventmanager-service" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserApiTestIT" />
-      <option name="METHOD_NAME" value="testeUser" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="UserApiTestIT.testeAlteraEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="eventmanager-rest-api" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserApiTestIT" />
-      <option name="METHOD_NAME" value="testeAlteraEmail" />
+      <option name="PACKAGE_NAME" value="br.com.gbraghim.eventmanager.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gbraghim.eventmanager.service.EventServiceTest" />
+      <option name="METHOD_NAME" value="alteraDataEvento" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -863,14 +478,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserApiTestIT.testeAlteraNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="eventmanager-rest-api" />
+    <configuration name="EventServiceTest.alteraDescricaoEvento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.com.gbraghim.eventmanager.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="eventmanager-service" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserApiTestIT" />
-      <option name="METHOD_NAME" value="testeAlteraNome" />
+      <option name="PACKAGE_NAME" value="br.com.gbraghim.eventmanager.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gbraghim.eventmanager.service.EventServiceTest" />
+      <option name="METHOD_NAME" value="alteraDescricaoEvento" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -883,14 +503,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserApiTestIT.testeAlteraPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="eventmanager-rest-api" />
+    <configuration name="EventServiceTest.alteraVagasEvento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.com.gbraghim.eventmanager.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="eventmanager-service" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserApiTestIT" />
-      <option name="METHOD_NAME" value="testeAlteraPassword" />
+      <option name="PACKAGE_NAME" value="br.com.gbraghim.eventmanager.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gbraghim.eventmanager.service.EventServiceTest" />
+      <option name="METHOD_NAME" value="alteraVagasEvento" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -903,14 +528,44 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserApiTestIT.testeDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="eventmanager-rest-api" />
+    <configuration name="EventServiceTest.testAlteraDataEvento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.com.gbraghim.eventmanager.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="eventmanager-service" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserApiTestIT" />
-      <option name="METHOD_NAME" value="testeDeleteUser" />
+      <option name="PACKAGE_NAME" value="br.com.gbraghim.eventmanager.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gbraghim.eventmanager.service.EventServiceTest" />
+      <option name="METHOD_NAME" value="testAlteraDataEvento" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="EventServiceTest.testAlteraDisponibilidade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.com.gbraghim.eventmanager.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="eventmanager-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.com.gbraghim.eventmanager.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gbraghim.eventmanager.service.EventServiceTest" />
+      <option name="METHOD_NAME" value="testAlteraDisponibilidade" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1005,19 +660,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.UserApiTestIT" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UserApiTestIT.testeAlteraNome" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserApiTestIT.testeAlteraEmail" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UserApiTestIT.testeAlteraPassword" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserApiTestIT.testeDeleteUser" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.EventServiceTest.alteraDescricaoEvento" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.EventServiceTest.alteraVagasEvento" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EventServiceTest.alteraDataEvento" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.EventServiceTest.testAlteraDataEvento" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.EventServiceTest.testAlteraDisponibilidade" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserApiTestIT.testeDeleteUser" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserApiTestIT.testeAlteraPassword" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserApiTestIT.testeAlteraEmail" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UserApiTestIT.testeAlteraNome" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserApiTestIT" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EventServiceTest.testAlteraDisponibilidade" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.EventServiceTest.testAlteraDataEvento" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EventServiceTest.alteraDataEvento" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EventServiceTest.alteraVagasEvento" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EventServiceTest.alteraDescricaoEvento" />
       </list>
     </recent_temporary>
   </component>
@@ -1112,39 +767,46 @@
       <option name="project" value="LOCAL" />
       <updated>1504637379941</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Criação da API de eventos">
+      <created>1504724272878</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1504724272878</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserApiTestIT_testeDeleteUser - 2017.09.06 at 09h 46m 47s.xml">
-      <configuration name="UserApiTestIT.testeDeleteUser" configurationId="JUnit" />
+    <history-entry file="EventServiceTest_alteraDataEvento - 2017.09.07 at 14h 09m 00s.xml">
+      <configuration name="EventServiceTest.alteraDataEvento" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserApiTestIT_testeDeleteUser - 2017.09.06 at 09h 48m 46s.xml">
-      <configuration name="UserApiTestIT.testeDeleteUser" configurationId="JUnit" />
+    <history-entry file="EventServiceTest_alteraDescricaoEvento - 2017.09.07 at 13h 51m 41s.xml">
+      <configuration name="EventServiceTest.alteraDescricaoEvento" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserApiTestIT_testeDeleteUser - 2017.09.06 at 09h 49m 50s.xml">
-      <configuration name="UserApiTestIT.testeDeleteUser" configurationId="JUnit" />
+    <history-entry file="EventServiceTest_alteraTituloEvento - 2017.09.07 at 13h 31m 35s.xml">
+      <configuration name="EventServiceTest.alteraTituloEvento" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserApiTestIT_testeDeleteUser - 2017.09.06 at 09h 52m 40s.xml">
-      <configuration name="UserApiTestIT.testeDeleteUser" configurationId="JUnit" />
+    <history-entry file="EventServiceTest_alteraTituloEvento - 2017.09.07 at 13h 37m 36s.xml">
+      <configuration name="EventServiceTest.alteraTituloEvento" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserApiTestIT_testeDeleteUser - 2017.09.06 at 09h 57m 57s.xml">
-      <configuration name="UserApiTestIT.testeDeleteUser" configurationId="JUnit" />
+    <history-entry file="EventServiceTest_alteraVagasEvento - 2017.09.07 at 13h 53m 52s.xml">
+      <configuration name="EventServiceTest.alteraVagasEvento" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserApiTestIT_testeDeleteUser - 2017.09.06 at 10h 13m 05s.xml">
-      <configuration name="UserApiTestIT.testeDeleteUser" configurationId="JUnit" />
+    <history-entry file="EventServiceTest_testAlteraDataEvento - 2017.09.07 at 14h 09m 50s.xml">
+      <configuration name="EventServiceTest.testAlteraDataEvento" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserApiTestIT_testeDeleteUser - 2017.09.06 at 10h 13m 35s.xml">
-      <configuration name="UserApiTestIT.testeDeleteUser" configurationId="JUnit" />
+    <history-entry file="EventServiceTest_testAlteraDisponibilidade - 2017.09.07 at 14h 13m 38s.xml">
+      <configuration name="EventServiceTest.testAlteraDisponibilidade" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserApiTestIT_testeDeleteUser - 2017.09.06 at 10h 15m 40s.xml">
-      <configuration name="UserApiTestIT.testeDeleteUser" configurationId="JUnit" />
+    <history-entry file="EventServiceTest_testRegistrarEvento - 2017.09.07 at 13h 13m 17s.xml">
+      <configuration name="EventServiceTest.testRegistrarEvento" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserApiTestIT_testeDeleteUser - 2017.09.06 at 10h 20m 39s.xml">
-      <configuration name="UserApiTestIT.testeDeleteUser" configurationId="JUnit" />
+    <history-entry file="EventServiceTest_testRegistrarEvento - 2017.09.07 at 13h 15m 45s.xml">
+      <configuration name="EventServiceTest.testRegistrarEvento" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserApiTestIT_testeDeleteUser - 2017.09.06 at 10h 22m 20s.xml">
-      <configuration name="UserApiTestIT.testeDeleteUser" configurationId="JUnit" />
+    <history-entry file="UserServiceTest_registraClienteTest - 2017.09.07 at 13h 20m 15s.xml">
+      <configuration name="UserServiceTest.registraClienteTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1160,12 +822,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32555556" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32555556" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32555556" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20469083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20682302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1177,6 +838,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12899786" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1192,58 +854,17 @@
     <MESSAGE value="Updating tests" />
     <MESSAGE value="Testes de Implementação" />
     <MESSAGE value="Refazendo - Testes de Integração" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refazendo - Testes de Integração" />
+    <MESSAGE value="Criação da API de eventos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação da API de eventos" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="45" />
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar!/org/apache/commons/logging/impl/SLF4JLocationAwareLog.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar!/org/springframework/core/convert/support/DefaultConversionService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar!/org/springframework/util/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar!/org/springframework/util/ClassUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="518" column="0" lean-forward="false" selection-start-line="518" selection-start-column="0" selection-end-line="518" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar!/org/springframework/core/convert/TypeDescriptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="229" column="0" lean-forward="false" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar!/org/springframework/util/ObjectUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar!/org/springframework/util/ConcurrentReferenceHashMap.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1357,7 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1365,26 +985,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest-api/users/src/test/UserControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/rest-api/users/src/test/EventControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
           <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="46" column="51" lean-forward="true" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
-          <folding>
-            <element signature="e#1814#1815#0" expanded="false" />
-            <element signature="e#1860#1861#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1427,46 +1035,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/events/src/main/java/model/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/events/src/main/java/model/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest-api/events/src/main/java/br/com/gbraghim/eventmanager/api/application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest-api/events/test/spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest-api/events/src/main/java/br/com/gbraghim/eventmanager/api/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/model/events/src/main/java/model/dao/UserDAO.java" />
+    <entry file="file://$PROJECT_DIR$/model/events/src/main/java/model/domain/User.java" />
+    <entry file="file://$PROJECT_DIR$/rest-api/events/test/spring-context.xml" />
+    <entry file="file://$PROJECT_DIR$/rest-api/events/src/main/java/br/com/gbraghim/eventmanager/api/controller/UserController.java" />
     <entry file="file://$PROJECT_DIR$/rest-api/events/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1523,14 +1095,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/DAO/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-api/events/src/main/java/SpringBootTest.java" />
+    <entry file="file://$PROJECT_DIR$/rest-api/users/src/main/java/SpringBootTest.java" />
+    <entry file="file://$PROJECT_DIR$/rest-api/users/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/events/src/main/java/br/com/gbraghim/eventmanager/model/domain/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="680">
+          <caret line="64" column="22" lean-forward="false" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#equals#0;class#Event#0" expanded="false" />
@@ -1540,50 +1128,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/DAO/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest-api/events/src/main/java/SpringBootTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest-api/users/src/main/java/SpringBootTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest-api/users/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/events/src/main/java/br/com/gbraghim/eventmanager/model/dao/EventDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="46" column="40" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#createEvent#0;class#EventDAO#0" expanded="false" />
             <element signature="method#updateEvent#0;class#EventDAO#0" expanded="false" />
             <element signature="method#deleteEvent#0;class#EventDAO#0" expanded="false" />
-            <element signature="method#getById#0;class#EventDAO#0" expanded="false" />
+            <element signature="e#1307#1308#0" expanded="false" />
             <element signature="method#getByData#0;class#EventDAO#0" expanded="false" />
             <element signature="method#findAll#0;class#EventDAO#0" expanded="false" />
           </folding>
@@ -1592,42 +1146,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/users/src/main/java/br/com/gbraghim/eventmanager/model/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="392">
+          <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#createUser#0;class#UserDAO#0" expanded="false" />
             <element signature="method#updateUser#0;class#UserDAO#0" expanded="false" />
             <element signature="method#deleteUser#0;class#UserDAO#0" expanded="false" />
             <element signature="method#checkEmail#0;class#UserDAO#0" expanded="false" />
+            <element signature="e#1946#1947#0" expanded="false" />
+            <element signature="e#1999#2000#0" expanded="false" />
             <element signature="method#findAll#0;class#UserDAO#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/users/src/main/java/br/com/gbraghim/eventmanager/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/service/events/src/test/java/br/com/gbraghim/eventmanager/service/EventServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-732">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="335">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#alteraNome#0;class#UserService#0" expanded="false" />
+            <element signature="e#772#773#0" expanded="false" />
+            <element signature="e#822#823#0" expanded="false" />
+            <element signature="method#testAlteraTituloEvento#0;class#EventServiceTest#0" expanded="false" />
+            <element signature="method#testAlteraDescricaoEvento#0;class#EventServiceTest#0" expanded="false" />
+            <element signature="method#testAlteraVagasEvento#0;class#EventServiceTest#0" expanded="false" />
+            <element signature="method#testAlteraDataEvento#0;class#EventServiceTest#0" expanded="false" />
+            <element signature="method#testAlteraDisponibilidade#0;class#EventServiceTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/events/src/main/java/EventService.java">
+    <entry file="file://$PROJECT_DIR$/service/users/src/test/java/br/com/gbraghim/eventmanager/service/UserServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="43" />
+        <state relative-caret-position="276">
+          <caret line="72" column="32" lean-forward="false" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+          <folding>
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="method#registraClienteTest#0;class#UserServiceTest#0" expanded="false" />
+            <element signature="method#alteraNomeTest#0;class#UserServiceTest#0" expanded="false" />
+            <element signature="method#deleteUserTest#0;class#UserServiceTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-api/events/src/main/java/br/com/gbraghim/eventmanager/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/events/src/test/java/br/com/gbraghim/eventmanager/service/EventServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/rest-api/events/src/main/java/br/com/gbraghim/eventmanager/api/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-api/events/src/main/java/api/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/users/src/main/java/br/com/gbraghim/eventmanager/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="76" selection-end-column="5" />
+          <folding>
+            <element signature="method#registraCliente#0;class#UserService#0" expanded="false" />
+            <element signature="method#alteraPassword#0;class#UserService#0" expanded="false" />
+            <element signature="method#testingFlow#0;class#UserService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/events/src/main/java/br/com/gbraghim/eventmanager/service/EventService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="71" column="19" lean-forward="false" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+          <folding>
+            <element signature="method#registraEvent#0;class#EventService#0" expanded="false" />
+            <element signature="method#alterarId#0;class#EventService#0" expanded="false" />
+            <element signature="method#alterarDescricao#0;class#EventService#0" expanded="false" />
+            <element signature="method#alterarData#0;class#EventService#0" expanded="false" />
+            <element signature="method#alterarVagas#0;class#EventService#0" expanded="false" />
+            <element signature="method#alterarDisponibilidade#0;class#EventService#0" expanded="false" />
+            <element signature="method#testingFlow#0;class#EventService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-api/events/src/main/java/api/controller/EventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getEvent#0;class#EventController#0" expanded="false" />
+            <element signature="method#createEvent#0;class#EventController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-api/events/src/test/EventApiTestIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
           <folding />
         </state>
       </provider>
