@@ -34,11 +34,11 @@ public class UserServiceTest extends TestCase{
     @Test
     public void registraClienteTest() throws ResourceNotFoundException {
         // O que eu preciso (cenario)
+        UUID uuid = UUID.randomUUID();
         String email = "email";
         String nome = "nome";
         String password = "password";
         String senhaHex = null;
-        UUID uuid = UUID.randomUUID();
 
         try {
             MessageDigest messageDigest1 = MessageDigest.getInstance("SHA-256");
@@ -59,7 +59,7 @@ public class UserServiceTest extends TestCase{
         }
 
         // O que quero testar
-        userService.registraCliente(uuid, email, senhaHex, nome);
+        userService.registraCliente(uuid, email, password, nome);
 
         // O que espero que aconteca
         user.setEmail(email);

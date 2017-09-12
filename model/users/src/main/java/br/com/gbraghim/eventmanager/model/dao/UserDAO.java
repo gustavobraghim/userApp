@@ -2,6 +2,7 @@ package br.com.gbraghim.eventmanager.model.dao;
 
 import br.com.gbraghim.eventmanager.model.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
@@ -11,7 +12,9 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
+@Service
 public class UserDAO {
+
     @Autowired
     private EntityManager manager;
 
