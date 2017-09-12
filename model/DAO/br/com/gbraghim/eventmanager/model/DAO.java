@@ -9,7 +9,6 @@ import javax.persistence.Persistence;
 
 @Configuration
 public class DAO {
-
     @Bean
     public EntityManager entityManager(){
         EntityManagerFactory factory = Persistence.createEntityManagerFactory("persistenceProvider");

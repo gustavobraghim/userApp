@@ -3,6 +3,7 @@ package br.com.gbraghim.eventmanager.service;
 import br.com.gbraghim.eventmanager.model.dao.EventDAO;
 import br.com.gbraghim.eventmanager.model.domain.Event;
 import br.com.gbraghim.eventmanager.service.exception.ResourceNotFoundException;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,7 +24,7 @@ public class EventService {
         Event event = new Event();
         event.setId(id);
         event.setTitulo(titulo);
-        event.setData(new Date());
+        event.setData(data);
         event.setDescricao(descricao);
         event.setVagasTotais(nVagas);
         event.setDisponivel(disponibilidade);
@@ -66,15 +67,16 @@ public class EventService {
         eventDAO.updateEvent(existingEvent);
     }
 
-    public List<Event> findAll() {
-        return eventDAO.findAll();
-    }
-
     public void deletaEvent(int id){
         Event existingEvent= eventDAO.getById(id);
         eventDAO.deleteEvent(existingEvent);
     }
-//TEM QUE TESTAR O FLUXO
+
+    public List<Event> findAll() {
+        return eventDAO.findAll();
+    }
+
+@Test
 public void testingFlow() throws IOException {
 /*
         httprequest('localhost:8080/users', PUT, '{name: bla, senha: bla, email: bla}')
@@ -98,8 +100,6 @@ public void testingFlow() throws IOException {
     httpCon.setRequestProperty(descricao, descricao);
     httpCon.setRequestProperty(vagas, vagas);
     httpCon.setRequestProperty(data, data);
-
-
 
     httpCon.getInputStream();
 }

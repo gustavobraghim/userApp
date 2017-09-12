@@ -20,7 +20,7 @@ public class EventApiTestIT {
     private TestRestTemplate restTemplate;
 
     @Test
-    public void testeEvento(){
+    public void criarTesteEvento(){
         String url = "/events";
         List forObject = this.restTemplate.getForObject(url, List.class);
         Assert.assertEquals(0, forObject.size());

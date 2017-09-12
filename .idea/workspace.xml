@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e5a7ad89-192d-4a2a-8b53-2d67c653de6d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/DAO/br/com/gbraghim/eventmanager/model/DAO.java" afterPath="$PROJECT_DIR$/model/DAO/br/com/gbraghim/eventmanager/model/DAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/users/src/test/java/br/com/gbraghim/eventmanager/model/test/UserDaoTest.java" afterPath="$PROJECT_DIR$/model/users/src/test/java/br/com/gbraghim/eventmanager/model/test/UserDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-api/events/src/test/EventApiTestIT.java" afterPath="$PROJECT_DIR$/rest-api/events/src/test/EventApiTestIT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/events/src/main/java/br/com/gbraghim/eventmanager/service/EventService.java" afterPath="$PROJECT_DIR$/service/events/src/main/java/br/com/gbraghim/eventmanager/service/EventService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/pom.xml" afterPath="$PROJECT_DIR$/service/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/model/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,79 +26,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EventController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rest-api/events/src/main/java/br/com/gbraghim/eventmanager/api/controller/EventController.java">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/users/src/main/java/br/com/gbraghim/eventmanager/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="e#677#678#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/users/src/main/java/br/com/gbraghim/eventmanager/model/dao/UserDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="59" />
-              <folding>
-                <element signature="method#updateUser#0;class#UserDAO#0" expanded="false" />
-                <element signature="method#deleteUser#0;class#UserDAO#0" expanded="false" />
-                <element signature="method#checkEmail#0;class#UserDAO#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventApiTestIT.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rest-api/events/src/test/EventApiTestIT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-199">
-              <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="-73">
+              <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#alteraPassword#0;class#UserService#0" expanded="false" />
+                <element signature="method#testingFlow#0;class#UserService#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/events/src/main/java/br/com/gbraghim/eventmanager/model/dao/EventDAO.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-              <folding>
-                <element signature="method#createEvent#0;class#EventDAO#0" expanded="false" />
-                <element signature="method#updateEvent#0;class#EventDAO#0" expanded="false" />
-                <element signature="method#deleteEvent#0;class#EventDAO#0" expanded="false" />
-                <element signature="method#getByData#0;class#EventDAO#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Event.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/model/events/src/main/java/br/com/gbraghim/eventmanager/model/domain/Event.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="238">
+              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/events/src/main/java/br/com/gbraghim/eventmanager/service/EventService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-              <folding>
-                <element signature="method#alterarDescricao#0;class#EventService#0" expanded="false" />
-                <element signature="e#2365#2366#0" expanded="true" />
-                <element signature="method#testingFlow#0;class#EventService#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -138,8 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rest-api/src/main/java/br/com/gbraghim/eventmanager/api/application/Application.java" />
-        <option value="$PROJECT_DIR$/rest-api/src/main/java/br/com/gbraghim/eventmanager/jsonTest/JsonTest.java" />
         <option value="$PROJECT_DIR$/rest-api/src/main/java/SpringBootTest.java" />
         <option value="$PROJECT_DIR$/rest-api/src/test/ParameterStringBuilder.java" />
         <option value="$PROJECT_DIR$/service/pom.xml" />
@@ -177,18 +127,20 @@
         <option value="$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/application/Application.java" />
         <option value="$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/application/UsersApplication.java" />
         <option value="$PROJECT_DIR$/model/DAO/DAO.java" />
-        <option value="$PROJECT_DIR$/model/DAO/br/com/gbraghim/eventmanager/model/DAO.java" />
         <option value="$PROJECT_DIR$/rest-api/events/src/main/java/br/com/gbraghim/eventmanager/api/application/EventApplication.java" />
         <option value="$PROJECT_DIR$/rest-api/events/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/model/users/src/main/java/br/com/gbraghim/eventmanager/model/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/service/events/src/main/java/br/com/gbraghim/eventmanager/service/EventService.java" />
         <option value="$PROJECT_DIR$/service/events/src/test/java/br/com/gbraghim/eventmanager/service/EventServiceTest.java" />
         <option value="$PROJECT_DIR$/rest-api/events/src/main/java/br/com/gbraghim/eventmanager/api/controller/EventController.java" />
         <option value="$PROJECT_DIR$/rest-api/events/src/test/EventControllerTest.java" />
         <option value="$PROJECT_DIR$/model/events/src/main/java/br/com/gbraghim/eventmanager/model/dao/EventDAO.java" />
         <option value="$PROJECT_DIR$/rest-api/users/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/rest-api/events/src/test/EventApiTestIT.java" />
         <option value="$PROJECT_DIR$/model/events/src/main/java/br/com/gbraghim/eventmanager/model/domain/Event.java" />
+        <option value="$PROJECT_DIR$/model/DAO/br/com/gbraghim/eventmanager/model/DAO.java" />
+        <option value="$PROJECT_DIR$/model/users/src/test/java/br/com/gbraghim/eventmanager/model/test/UserDaoTest.java" />
+        <option value="$PROJECT_DIR$/model/events/src/test/java/EventDaoTest.java" />
+        <option value="$PROJECT_DIR$/service/events/src/main/java/br/com/gbraghim/eventmanager/service/EventService.java" />
+        <option value="$PROJECT_DIR$/rest-api/events/src/test/EventApiTestIT.java" />
       </list>
     </option>
   </component>
@@ -266,314 +218,11 @@
             <path>
               <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="DAO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="DAO" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
               <item name="rest-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="rest-api" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eventmanager-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userApp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -628,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EventApiTestIT.testeEvento">
+  <component name="RunManager" selected="JUnit.EventService.testingFlow">
     <configuration name="EventApiTestIT.testeEvento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="eventmanager-rest-api" />
@@ -649,34 +298,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserApiTestIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EventDaoTest.testCrudUser (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="eventmanager-rest-api" />
+      <module name="eventmanager-model" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserApiTestIT" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="UserApiTestIT.testeAlteraNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="eventmanager-rest-api" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserApiTestIT" />
-      <option name="METHOD_NAME" value="testeAlteraNome" />
+      <option name="MAIN_CLASS_NAME" value="EventDaoTest" />
+      <option name="METHOD_NAME" value="testCrudUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -689,14 +318,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserApiTestIT.testeUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="eventmanager-rest-api" />
+    <configuration name="EventDaoTest.testCrudUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.com.gbraghim.eventmanager.model.test..*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="eventmanager-model" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserApiTestIT" />
-      <option name="METHOD_NAME" value="testeUser" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gbraghim.eventmanager.model.test..EventDaoTest" />
+      <option name="METHOD_NAME" value="testCrudUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -709,7 +343,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserServiceTest.registraClienteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EventService.testingFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="br.com.gbraghim.eventmanager.service.*" />
@@ -720,8 +354,33 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="br.com.gbraghim.eventmanager.service" />
-      <option name="MAIN_CLASS_NAME" value="br.com.gbraghim.eventmanager.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="registraClienteTest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gbraghim.eventmanager.service.EventService" />
+      <option name="METHOD_NAME" value="testingFlow" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UserDaoTest.testCrudUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.com.gbraghim.eventmanager.model.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="eventmanager-model" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.com.gbraghim.eventmanager.model.test" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gbraghim.eventmanager.model.test.UserDaoTest" />
+      <option name="METHOD_NAME" value="testCrudUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -816,19 +475,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.UserApiTestIT.testeUser" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UserApiTestIT" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceTest.registraClienteTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UserApiTestIT.testeAlteraNome" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.EventApiTestIT.testeEvento" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.EventApiTestIT.testeEvento" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.EventDaoTest.testCrudUser" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EventDaoTest.testCrudUser (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserDaoTest.testCrudUser" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.EventService.testingFlow" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.EventApiTestIT.testeEvento" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserApiTestIT.testeUser" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserApiTestIT.testeAlteraNome" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceTest.registraClienteTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserApiTestIT" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EventService.testingFlow" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserDaoTest.testCrudUser" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EventDaoTest.testCrudUser (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EventDaoTest.testCrudUser" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EventApiTestIT.testeEvento" />
       </list>
     </recent_temporary>
   </component>
@@ -948,15 +607,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EventApiTestIT_testeEvento - 2017.09.12 at 15h 37m 29s.xml">
-      <configuration name="EventApiTestIT.testeEvento" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventApiTestIT_testeEvento - 2017.09.12 at 15h 41m 49s.xml">
-      <configuration name="EventApiTestIT.testeEvento" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventApiTestIT_testeEvento - 2017.09.12 at 15h 42m 43s.xml">
-      <configuration name="EventApiTestIT.testeEvento" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EventApiTestIT_testeEvento - 2017.09.12 at 15h 43m 48s.xml">
       <configuration name="EventApiTestIT.testeEvento" configurationId="JUnit" />
     </history-entry>
@@ -975,8 +625,17 @@
     <history-entry file="EventApiTestIT_testeEvento - 2017.09.12 at 15h 52m 16s.xml">
       <configuration name="EventApiTestIT.testeEvento" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserApiTestIT_testeUser - 2017.09.12 at 15h 37m 40s.xml">
-      <configuration name="UserApiTestIT.testeUser" configurationId="JUnit" />
+    <history-entry file="EventDaoTest_testCrudUser_(1) - 2017.09.12 at 17h 33m 26s.xml">
+      <configuration name="EventDaoTest.testCrudUser (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventService_testingFlow - 2017.09.12 at 17h 41m 45s.xml">
+      <configuration name="EventService.testingFlow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_testCrudUser - 2017.09.12 at 17h 34m 39s.xml">
+      <configuration name="UserDaoTest.testCrudUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_testCrudUser - 2017.09.12 at 17h 34m 48s.xml">
+      <configuration name="UserDaoTest.testCrudUser" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1032,35 +691,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/model/events/src/main/java/br/com/gbraghim/eventmanager/model/dao/EventDAO.java</url>
-          <line>60</line>
-          <properties />
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="57" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/users/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/events/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1170,14 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest-api/events/src/main/java/br/com/gbraghim/eventmanager/api/application/EventApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/users/src/main/java/br/com/gbraghim/eventmanager/model/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1199,20 +826,6 @@
             <element signature="method#testAlteraDescricaoEvento#0;class#EventServiceTest#0" expanded="false" />
             <element signature="method#testAlteraVagasEvento#0;class#EventServiceTest#0" expanded="false" />
             <element signature="method#testAlteraDataEvento#0;class#EventServiceTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest-api/events/src/test/EventControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="56" column="97" lean-forward="false" selection-start-line="56" selection-start-column="97" selection-end-line="56" selection-end-column="97" />
-          <folding>
-            <element signature="method#editaTitulo#0;class#EventControllerTest#0" expanded="false" />
-            <element signature="method#editaDescricao#0;class#EventControllerTest#0" expanded="false" />
-            <element signature="method#editaVagas#0;class#EventControllerTest#0" expanded="false" />
-            <element signature="method#editDisponibilidade#0;class#EventControllerTest#0" expanded="false" />
-            <element signature="method#editData#0;class#EventControllerTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1263,26 +876,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/EntityManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/DAO/br/com/gbraghim/eventmanager/model/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1337,30 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/users/src/main/java/br/com/gbraghim/eventmanager/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#alteraPassword#0;class#UserService#0" expanded="false" />
-            <element signature="method#testingFlow#0;class#UserService#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/users/src/main/java/br/com/gbraghim/eventmanager/model/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="59" />
-          <folding>
-            <element signature="method#updateUser#0;class#UserDAO#0" expanded="false" />
-            <element signature="method#deleteUser#0;class#UserDAO#0" expanded="false" />
-            <element signature="method#checkEmail#0;class#UserDAO#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rest-api/events/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1374,18 +947,6 @@
         <state relative-caret-position="187">
           <caret line="11" column="70" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/events/src/main/java/br/com/gbraghim/eventmanager/service/EventService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding>
-            <element signature="method#alterarDescricao#0;class#EventService#0" expanded="false" />
-            <element signature="e#2365#2366#0" expanded="true" />
-            <element signature="method#testingFlow#0;class#EventService#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1413,43 +974,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest-api/events/src/main/java/br/com/gbraghim/eventmanager/api/controller/EventController.java">
+    <entry file="file://$PROJECT_DIR$/rest-api/events/src/main/java/br/com/gbraghim/eventmanager/api/application/EventApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#677#678#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest-api/events/src/test/EventApiTestIT.java">
+    <entry file="file://$PROJECT_DIR$/model/DAO/br/com/gbraghim/eventmanager/model/DAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/events/src/test/java/EventDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/users/src/test/java/br/com/gbraghim/eventmanager/model/test/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/events/src/main/java/br/com/gbraghim/eventmanager/model/domain/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="109" column="1" lean-forward="false" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/users/src/main/java/br/com/gbraghim/eventmanager/model/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="59" />
+          <folding>
+            <element signature="method#updateUser#0;class#UserDAO#0" expanded="false" />
+            <element signature="method#deleteUser#0;class#UserDAO#0" expanded="false" />
+            <element signature="method#checkEmail#0;class#UserDAO#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model/events/src/main/java/br/com/gbraghim/eventmanager/model/dao/EventDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#createEvent#0;class#EventDAO#0" expanded="false" />
-            <element signature="method#updateEvent#0;class#EventDAO#0" expanded="false" />
             <element signature="method#deleteEvent#0;class#EventDAO#0" expanded="false" />
             <element signature="method#getByData#0;class#EventDAO#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/events/src/main/java/br/com/gbraghim/eventmanager/model/domain/Event.java">
+    <entry file="file://$PROJECT_DIR$/rest-api/events/src/main/java/br/com/gbraghim/eventmanager/api/controller/EventController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="-340">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/events/src/main/java/br/com/gbraghim/eventmanager/service/EventService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="59" column="51" lean-forward="true" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2493#2494#0" expanded="true" />
+            <element signature="e#2534#2535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-api/events/src/test/EventApiTestIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-api/events/src/test/EventControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="37" column="67" lean-forward="false" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
+          <folding>
+            <element signature="method#createEventTest#0;class#EventControllerTest#0" expanded="false" />
+            <element signature="method#editaTitulo#0;class#EventControllerTest#0" expanded="false" />
+            <element signature="method#editaDescricao#0;class#EventControllerTest#0" expanded="false" />
+            <element signature="method#editaVagas#0;class#EventControllerTest#0" expanded="false" />
+            <element signature="method#editDisponibilidade#0;class#EventControllerTest#0" expanded="false" />
+            <element signature="method#editData#0;class#EventControllerTest#0" expanded="false" />
+            <element signature="method#deleteEventTest#0;class#EventControllerTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/users/src/main/java/br/com/gbraghim/eventmanager/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#alteraPassword#0;class#UserService#0" expanded="false" />
+            <element signature="method#testingFlow#0;class#UserService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-api/users/src/main/java/br/com/gbraghim/eventmanager/api/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding />
         </state>
       </provider>
